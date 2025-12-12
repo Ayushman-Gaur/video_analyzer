@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: video-analyzer
-    runtime: nixpacks
-    buildCommand: "./mvnw -DskipTests package"
-    startCommand: "java -jar target/Video_Analyzier-0.0.1-SNAPSHOT.jar"
-    envVars:
-      JAVA_VERSION: "17"
